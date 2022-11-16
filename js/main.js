@@ -22,12 +22,17 @@ const images = [
     }
 ];
 
-
 const sliderImgEl = document.querySelector(".sliderImg");
+const sliderTitoliEl = document.querySelector(".sliderTitoliEl");
+const sliderDescrizioneEl = document.querySelector(".sliderDescrizioneEl");
 const btnNext = document.getElementById("slider-btn-next");
 const btnPrev = document.getElementById("slider-btn-prev");
 
-let currentImgindex = 0;
+// let currentImgindex = {
+//     immagini: formElements.image.value,
+//     titoli: formElements.title.value,
+//     descrizioni: formElements.text.value,
+// }
 
 sliderImgEl.src = images[ currentImgindex ];
 
