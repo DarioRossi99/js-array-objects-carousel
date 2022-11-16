@@ -1,0 +1,30 @@
+
+#sliderImgContainer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#size-img{
+    max-width: 100%;
+    height: auto;
+}
+
+#btn-top{
+    top: 20%;
+    width: 100%;
+}
+
+#slider-btn-prev{
+    background-color: white;
+}
+
+#btn-bott{
+    bottom: 50%;
+    width: 100%;
+}
+
+#slider-btn-next{
+    background-color: white;
+} 
